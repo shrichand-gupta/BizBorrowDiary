@@ -1,0 +1,6 @@
+@BizBorrowDiary_HostAddress = http://localhost:5125
+
+GET {{BizBorrowDiary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
