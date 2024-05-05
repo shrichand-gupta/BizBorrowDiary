@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BizBorrowDiary.Database\**" />
+    <Content Remove="BizBorrowDiary.Database\**" />
+    <EmbeddedResource Remove="BizBorrowDiary.Database\**" />
+    <None Remove="BizBorrowDiary.Database\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentMigrator.Runner.MySql" Version="5.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>

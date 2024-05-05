@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BizBorrowDiary.Api", "BizBorrowDiary.Api.csproj", "{D55E8F46-EC57-4C3A-BA9C-9FB7852F9146}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BizBorrowDiary.Api", "BizBorrowDiary.Api", "{19CEFC9A-4DF7-44F7-A842-49CC0A6F8E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizBorrowDiary.Database", "..\BizBorrowDiary.Database\BizBorrowDiary.Database.csproj", "{167E6030-F15E-4155-9599-5A6065A6A399}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BizBorrowDiary.Database", "BizBorrowDiary.Database", "{063D1D21-A27F-4D18-A743-5FC906527129}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BizBorrowDiary.Api", "BizBorrowDiary.Api\BizBorrowDiary.Api.csproj", "{BB47D268-420E-4736-BD4C-F1E7A9DD4C31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BizBorrowDiary.Database", "BizBorrowDiary.Database\BizBorrowDiary.Database.csproj", "{F6E34847-362C-4203-9CE5-013BBE9F6112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D55E8F46-EC57-4C3A-BA9C-9FB7852F9146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D55E8F46-EC57-4C3A-BA9C-9FB7852F9146}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D55E8F46-EC57-4C3A-BA9C-9FB7852F9146}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D55E8F46-EC57-4C3A-BA9C-9FB7852F9146}.Release|Any CPU.Build.0 = Release|Any CPU
-		{167E6030-F15E-4155-9599-5A6065A6A399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{167E6030-F15E-4155-9599-5A6065A6A399}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{167E6030-F15E-4155-9599-5A6065A6A399}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{167E6030-F15E-4155-9599-5A6065A6A399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB47D268-420E-4736-BD4C-F1E7A9DD4C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB47D268-420E-4736-BD4C-F1E7A9DD4C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB47D268-420E-4736-BD4C-F1E7A9DD4C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB47D268-420E-4736-BD4C-F1E7A9DD4C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E34847-362C-4203-9CE5-013BBE9F6112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E34847-362C-4203-9CE5-013BBE9F6112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E34847-362C-4203-9CE5-013BBE9F6112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E34847-362C-4203-9CE5-013BBE9F6112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB47D268-420E-4736-BD4C-F1E7A9DD4C31} = {19CEFC9A-4DF7-44F7-A842-49CC0A6F8E8F}
+		{F6E34847-362C-4203-9CE5-013BBE9F6112} = {063D1D21-A27F-4D18-A743-5FC906527129}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8A5741E-79C1-4E8B-AD25-B3D3E074C231}
